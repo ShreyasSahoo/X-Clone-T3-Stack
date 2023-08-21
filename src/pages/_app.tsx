@@ -18,7 +18,7 @@ const MyApp: AppType<{ session: Session | null }> = ({
           content="This is a X Clone build with the T3 Stack"
         />
       </Head>
-      <div className="container mx-auto flex">
+      <div className="container mx-auto flex sm:pr-4">
         <SideBar />
         <div className="min-h-screen flex-grow border-x">
           <Component {...pageProps} />
